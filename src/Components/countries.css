@@ -1,0 +1,84 @@
+
+#countries {
+	width: 80%;
+	border-radius: 5px;
+	padding: 10px;
+	border: 0;
+	background: #1e2931;
+	color: #fff;
+	/* margin-top: 20px; */
+	margin-bottom: 20px;
+}
+
+.container { margin-top: 130px }
+
+.container.cases-container {margin-top: 10px}
+.card {
+	-webkit-transition: 0.2s all ease-in-out;
+	-o-transition: 0.2s all ease-in-out;
+	-moz-transition: 0.2s all ease-in-out;
+	transition: 0.2s all ease-in-out;
+	background-color: #1e2931;
+	min-height: 171px;
+	color: #fff;
+	padding: 20px;
+}
+
+.deaths:hover {
+	background-color: #c60000
+}
+
+.recovered:hover {
+	background-color: #082
+}
+
+.confirmed:hover {
+	background: #a87e00;
+}
+
+.card:hover {
+	cursor: pointer;
+}
+
+form {
+	width: 100%;
+}
+
+input {
+    width: 18%;
+    padding: 11px;
+    margin-left: 2%;
+    background-color: #fff;
+    border: 0;
+    border-radius: 4px;
+    /* box-shadow: 0 0 5px #000; */
+    color: #ffffff;
+    font-weight: bold;
+    background: #0062cc;
+}
+
+p.word {
+    text-align: center;
+    width: 100%;
+    margin: 15px 0;
+    color: #838383;
+}
+
+@media(max-width: 767px){
+	.container{margin-top: 80px}
+	.container.cases-container {margin-top: 0px}
+	.card {
+		margin-bottom: 10px;
+		min-height: auto;
+		padding: 15px 15px 15px;
+	}
+
+	p.cases {font-size: 30px}
+	h5 {font-size: 20px}
+	p.prsnt {font-size: 12px; opacity: 0.5}
+}
+
+@media(max-width: 500px){
+	#countries{width: 75%}
+	input[type="submit"]{width: calc(18% + 5%);}
+}

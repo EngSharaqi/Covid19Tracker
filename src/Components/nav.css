@@ -1,0 +1,27 @@
+.topar {
+	width: 100%;
+	/* position: absolute; */
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	background-color: #1e2931;
+	padding: 20px;
+	box-shadow: 0 0 10px #181e23;
+	text-align: center;
+	padding-right: 0;
+	padding-left: 0;
+	position: fixed;
+}
+
+.topar .logo {
+	margin-bottom: 0;
+	padding: 0px 0;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+}
+
+.logo a {
+	font-size: 18px;
+	color: #fff;
+	font-weight: 600;
+}
