@@ -6,7 +6,7 @@ class Navbar extends Component {
         return (
             <div>
                 <div className="topar">
-                    <ul className="logo"><a href="/">CoronaCounter</a></ul>
+                    <ul className="logo"><a href="/">Covid-19 Tracker</a></ul>
                 </div>
             </div>
         );
